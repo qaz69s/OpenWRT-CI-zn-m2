@@ -13,7 +13,7 @@ https://github.com/VIKINGYFY/immortalwrt.git
 
 固件信息里的时间为编译开始的时间，方便核对上游源码提交时间。
 
-QUALCOMMAX系列
+zn-m2系列
 
 # 目录简要说明：
 
@@ -22,3 +22,5 @@ workflows——自定义CI配置
 Scripts——自定义脚本
 
 Config——自定义配置
+
+除了内核版本高6.6+，无任何插件，无wifi、无usb。自己在线安装吧，hahahahahahahah
