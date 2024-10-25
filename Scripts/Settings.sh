@@ -39,6 +39,7 @@ fi
 #高通平台锁定512M内存
 if [[ $WRT_TARGET == *"IPQ"* ]]; then
 	echo "CONFIG_IPQ_MEM_PROFILE_1024=n" >> ./.config
+ 	echo "CONFIG_IPQ_MEM_PROFILE_512=n" >> ./.config
 #	echo "CONFIG_IPQ_MEM_PROFILE_256=y" >> ./.config
 # 	echo "CONFIG_KERNEL_IPQ_MEM_PROFILE=256" >> ./.config
   	echo "CONFIG_NSS_MEM_PROFILE_LOW=y" >> ./.config
