@@ -53,6 +53,7 @@ if [[ $WRT_REPO == *"lede"* ]]; then
 	echo "CONFIG_PACKAGE_luci-app-passwall=y" >> ./.config
 	echo "CONFIG_PACKAGE_luci-app-ssr-plus=n" >> ./.config
 	echo "CONFIG_PACKAGE_luci-app-turboacc=y" >> ./.config
+        echo "CONFIG_PACKAGE_luci-app-dae=y" >> ./.config
 else
 	echo "CONFIG_PACKAGE_luci=y" >> ./.config
 	echo "CONFIG_LUCI_LANG_zh_Hans=y" >> ./.config
