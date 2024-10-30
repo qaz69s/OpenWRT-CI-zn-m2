@@ -83,6 +83,7 @@ CONFIG_PACKAGE_luci-app-alpha-config=n
 CONFIG_PACKAGE_luci-app-zerotier=y
 CONFIG_PACKAGE_luci-app-vlmcsd=y
 CONFIG_PACKAGE_luci-app-dae=y
+CONFIG_PACKAGE_luci-theme-bootstrap=y
 
 #删除插件
 CONFIG_PACKAGE_luci-app-wol=n
